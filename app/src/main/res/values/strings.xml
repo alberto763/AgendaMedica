@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Agenda Médica</string>
+
+    <!-- MainActivity -->
+    <string name="agenda_titulo">Mi Agenda Médica</string>
+    <string name="btn_nueva_cita">Nueva Cita</string>
+    <string name="btn_anular_cita">Anular Cita</string>
+    <string name="no_citas">No hay citas programadas</string>
+
+    <!-- AltaCitaActivity -->
+    <string name="alta_titulo">Nueva Cita</string>
+    <string name="paciente_hint">Nombre del paciente</string>
+    <string name="doctor_hint">Doctor</string>
+    <string name="fecha_hint">Fecha (DD/MM/YYYY)</string>
+    <string name="hora_hint">Hora (HH:MM)</string>
+    <string name="motivo_hint">Motivo de la consulta</string>
+    <string name="btn_guardar">Guardar Cita</string>
+    <string name="btn_cancelar">Cancelar</string>
+
+    <!-- AnularCitaActivity -->
+    <string name="anular_titulo">Anular Cita</string>
+    <string name="id_cita_hint">ID de la cita</string>
+    <string name="btn_anular">Anular Cita</string>
+    <string name="btn_volver">Volver</string>
+
+    <!-- Mensajes -->
+    <string name="cita_guardada">Cita guardada correctamente</string>
+    <string name="cita_anulada">Cita anulada correctamente</string>
+    <string name="error_campos_vacios">Por favor, complete todos los campos</string>
+    <string name="error_fecha_invalida">Formato de fecha inválido</string>
+    <string name="error_hora_invalida">Formato de hora inválido</string>
+    <string name="error_cita_no_encontrada">Cita no encontrada</string>
+    <string name="error_id_invalido">ID inválido</string>
+
+    <!-- Notificaciones -->
+    <string name="notification_channel_name">Notificaciones Agenda</string>
+    <string name="notification_channel_desc">Notificaciones de la agenda médica</string>
+    <string name="battery_low_title">Batería baja</string>
+    <string name="battery_low_text">Recuerda cargar tu dispositivo para no perder tus citas</string>
+    <string name="battery_ok_title">Batería restaurada</string>
+    <string name="battery_ok_text">Tu dispositivo está listo para gestionar citas</string>
+</resources>

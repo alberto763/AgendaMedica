@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Agenda Mèdica</string>
+
+    <!-- MainActivity -->
+    <string name="agenda_titulo">La Meva Agenda Mèdica</string>
+    <string name="btn_nueva_cita">Nova Cita</string>
+    <string name="btn_anular_cita">Anul·lar Cita</string>
+    <string name="no_citas">No hi ha cites programades</string>
+
+    <!-- AltaCitaActivity -->
+    <string name="alta_titulo">Nova Cita</string>
+    <string name="paciente_hint">Nom del pacient</string>
+    <string name="doctor_hint">Metge</string>
+    <string name="fecha_hint">Data (DD/MM/YYYY)</string>
+    <string name="hora_hint">Hora (HH:MM)</string>
+    <string name="motivo_hint">Motiu de la consulta</string>
+    <string name="btn_guardar">Guardar Cita</string>
+    <string name="btn_cancelar">Cancel·lar</string>
+
+    <!-- AnularCitaActivity -->
+    <string name="anular_titulo">Anul·lar Cita</string>
+    <string name="id_cita_hint">ID de la cita</string>
+    <string name="btn_anular">Anul·lar Cita</string>
+    <string name="btn_volver">Tornar</string>
+
+    <!-- Mensajes -->
+    <string name="cita_guardada">Cita guardada correctament</string>
+    <string name="cita_anulada">Cita anul·lada correctament</string>
+    <string name="error_campos_vacios">Si us plau, completeu tots els camps</string>
+    <string name="error_fecha_invalida">Format de data invàlid</string>
+    <string name="error_hora_invalida">Format d\'hora invàlid</string>
+    <string name="error_cita_no_encontrada">Cita no trobada</string>
+    <string name="error_id_invalido">ID invàlid</string>
+
+    <!-- Notificaciones -->
+    <string name="notification_channel_name">Notificacions Agenda</string>
+    <string name="notification_channel_desc">Notificacions de l\'agenda mèdica</string>
+    <string name="battery_low_title">Bateria baixa</string>
+    <string name="battery_low_text">Recorda carregar el teu dispositiu per no perdre les cites</string>
+    <string name="battery_ok_title">Bateria restaurada</string>
+    <string name="battery_ok_text">El teu dispositiu està llest per gestionar cites</string>
+</resources>
